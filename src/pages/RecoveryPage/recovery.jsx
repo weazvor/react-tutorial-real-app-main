@@ -2,6 +2,14 @@
 import BonusAvatar from "../../img/img_icon2.png";
 import BonusMessage from "../../img/message.png";
 import ImgAppeal from "../../img/5.png";
+
+import ImgCube from "../../img/cube.png";
+import ImgWallet from "../../img/wallet.png";
+import ImgMedal from "../../img/medal.png";
+import ImgPodium from "../../img/podium.png";
+
+
+
 import "../../uicons-regular-straight/css/uicons-regular-straight.css"
 
 
@@ -592,7 +600,7 @@ return (
 								бодрость и сила.</p>
 						</div>
 						<div className="bg-wrapper-img2">
-							<img src="/img/2.png" alt="" />
+							{/* <img src="/img/2.png" alt="" /> */}
 						</div>
 					</div>
 
@@ -633,23 +641,23 @@ return (
 						</p>
 						<div className="row achievements text-center">
 							<div className="col-6">
-								<img src="/src/img/cube.png" alt="" width="100%" />
+								<img src={ImgCube} alt="" width="100%" />
 								<p>Вице-чемпион<br />
 									Европы</p>
 							</div>
 							<div className="col-6">
-								<img src="/src/img/wallet.png" alt="" width="100%" />
+								<img src={ImgWallet} alt="" width="100%" />
 								<p>Обладатель Pro
 									Card IFBB</p>
 							</div>
 							<div className="col-6">
-								<img src="/src/img/medal.png" alt="" width="100%" />
+								<img src={ImgMedal} alt="" width="100%" />
 								<p>Двукратный<br />
 									вице-чемпион
 									России</p>
 							</div>
 							<div className="col-6">
-								<img src="/src/img/podium.png" alt="" width="100%" />
+								<img src={ImgPodium} alt="" width="100%" />
 								<p>Чемпион<br />
 									Diamond Cup
 									Италии и Греции</p>
