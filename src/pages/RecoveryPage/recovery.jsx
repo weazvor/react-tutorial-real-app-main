@@ -1,7 +1,7 @@
 
 import BonusAvatar from "../../img/img_icon2.png";
 import BonusMessage from "../../img/message.png";
-import ImgAppeal from "../../img/5.png";
+import ImgAppeal from "../../img/Artem.png";
 
 import ImgCube from "../../img/cube.png";
 import ImgWallet from "../../img/wallet.png";
@@ -10,86 +10,118 @@ import ImgPodium from "../../img/podium.png";
 
 
 
+import "../../uicons-brands/css/uicons-brands.css"
 import "../../uicons-regular-straight/css/uicons-regular-straight.css"
 
 
 const Recovery = () => {
-return (
-<>
-	<div className="main bg-crimson">
-		<div className="row justify-content-center">
-			<div className="col-9">
+	return (
+		<>
+			<div className="main bg-crimson">
+				<div className="row justify-content-center">
+					<div className="col-9">
 
 
-				<div className="row ">
-					<div className="col">
-						<div className="row justify-content-around">
-							<div className="col-2 text-white text-center rounded-3 crimson p-3">
-								<i className="fi fi-rs-clock fs-3"></i>
-								<p className="text-uppercase small">Длительность</p>
-								<p className="fw-bold">12 недель</p>
-							</div>
-							<div className="col-2 text-white text-center rounded-3 crimson p-3">
-								<i className="fi fi-rs-calendar fs-3"></i>
-								<p className="text-uppercase small">Дата старта</p>
-								<p className="fw-bold">1 февраля</p>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col align-self-center text-end mr-70 text-center"> <img
-									src="https://x-lines.ru/letters/i/cyrillicbasic/0662/ffffff/60/0/kbjr611fepky.png" /><br /><a href="#"
-									className="btn-submit text-wrap my-5 text-uppercase">Хочу купить</a><br />
-								<div className="row justify-content-end">
-									<div className="col-7 text-white text-center rounded-3 crimson px-5 py-1 z-6">
-										<p className="fw-bold small fs-5 lh-2">Артём Брыков</p>
-										<p className="text-uppercase small">Фитнес-тренер</p>
+						<div className="row ">
+							<div className="col">
+								<div className="row justify-content-around">
+									<div className="col-12 col-lg-2 col-md-3 col-sm-4 text-white text-center rounded-3 crimson p-3 m-3">
+										<i className="fi fi-rs-clock fs-3"></i>
+										<p className="text-uppercase small">Длительность</p>
+										<p className="fw-bold">12 недель</p>
+									</div>
+									<div className="col-12 col-lg-2 col-md-3 col-sm-4 text-white text-center rounded-3 crimson p-3 m-3">
+										<i className="fi fi-rs-calendar fs-3"></i>
+										<p className="text-uppercase small">Дата старта</p>
+										<p className="fw-bold">1 февраля</p>
 									</div>
 								</div>
-							</div>
-							<div className="col-10 wrap_img ">
-								<div className="img_proj"></div>
-							</div>
-							<div className="col align-self-center text-start ml-80 mt-530">
-								<img src="https://x-lines.ru/letters/i/cyrillicbasic/0662/ffffff/60/0/kjnwgu4seijf1.png" />
-							</div>
-						</div>
-					</div>
-				</div>
+
+								<div className="row">
+									<div className="col">
+
+										{/* <a href="#" className="btn-submit text-wrap my-5 text-uppercase">Хочу купить</a><br /> */}
+
+										<div className="row relative">
+
+											<div className="col text-center">
+												<img src="https://x-lines.ru/letters/i/cyrillicbasic/0662/ffffff/60/0/kbjr611fepky.png" className="projAbsolute" />
+												<br />
+											</div>
 
 
-				<div className="row my-5">
-					<div className="col text-white">
-						<p className="fw-bold fs-1">Новинки 27 сезона</p>
-						<div className="col">
-							<p className="fw-bold fs-2 mt-5">Platinum:</p>
-							<span className="fs-2"> — Йога, 2 онлайн-урока с приглашенным преподавателем</span>
+											<div className="col wrap_img">
+												<img src={ImgAppeal} alt="" width="80%" className="projAbsolute_3" />
+											</div>
+
+											<div className="col text-center">
+												<img src="https://x-lines.ru/letters/i/cyrillicbasic/0662/ffffff/60/0/kjnwgu4seijf1.png" className="projAbsolute_2" />
+											</div>
+										</div>
+
+										<img src={ImgAppeal} alt="" width="100%" className="ImgMobAvatar" />
+
+										<div className="row justify-content-end">
+
+											<div className="col-12 col-lg-4 col-md-6 col-sm-12 text-white text-center rounded-3 crimson px-5 py-1 z-6 my-sm-5">
+												<p className="fw-bold small fs-5 lh-2">Артём Брыков</p>
+												<p className="text-uppercase small">Фитнес-тренер</p>
+											</div>
+
+										</div>
+
+
+									</div>
+								</div>
+
+
+							</div>
 						</div>
-						<div className="col">
-							<p className="fw-bold fs-2 mt-5">Мастер-класс (вебинар):</p>
-							<span className="fs-2"> — создание эмоциональной мотивации
-								для достижения цели</span>
+
+
+						<div className="row my-5">
+							<div className="col text-white">
+								<p className="fw-bold fs-1">Новинки 27 сезона</p>
+								<div className="col">
+									<p className="fw-bold fs-2 mt-5">Platinum:</p>
+									<span className="fs-2"> — Йога, 2 онлайн-урока с приглашенным преподавателем</span>
+								</div>
+								<div className="col">
+									<p className="fw-bold fs-2 mt-5">Мастер-класс (вебинар):</p>
+									<span className="fs-2"> — создание эмоциональной мотивации
+										для достижения цели</span>
+								</div>
+								<div className="col">
+									<p className="fw-bold fs-2  mt-5">Прямой эфир:</p>
+									<span className="fs-2"> — ответы на вопросы от Артёма</span>
+								</div>
+							</div>
+							<div className="col-2 col-lg-2 col-md-2 col-sm-2 border-end">
+								<ul className="brands_url fs-2 d-flex flex-column text-end p-4">
+									<a href="#" className="text-decoration-none"><i className="fi fi-brands-instagram"></i></a>
+									<a href="#" className="text-decoration-none"><i className="fi fi-brands-vk"></i></a>
+									<a href="#" className="text-decoration-none"><i className="fi fi-brands-whatsapp"></i></a>
+									<a href="#" className="text-decoration-none"><i className="fi fi-brands-telegram"></i></a>
+								</ul>
+							</div>
 						</div>
-						<div className="col">
-							<p className="fw-bold fs-2  mt-5">Прямой эфир:</p>
-							<span className="fs-2"> — ответы на вопросы от Артёма</span>
+
+
+						<div className="col-12">
+							<ul className="brands_url_2 m-3 text-center">
+								<a href="#" className="text-decoration-none"><i className="fi fi-brands-instagram p-1"></i></a>
+								<a href="#" className="text-decoration-none"><i className="fi fi-brands-vk p-1"></i></a>
+								<a href="#" className="text-decoration-none"><i className="fi fi-brands-whatsapp p-1"></i></a>
+								<a href="#" className="text-decoration-none"><i className="fi fi-brands-telegram p-1"></i></a>
+							</ul>
 						</div>
-					</div>
-					<div className="col-1 border-end">
-						<ul className="brands_url fs-2 d-flex flex-column text-end p-5">
-							<a href="#" className="text-decoration-none"><i className="fi fi-brands-instagram"></i></a>
-							<a href="#" className="text-decoration-none"><i className="fi fi-brands-vk"></i></a>
-							<a href="#" className="text-decoration-none"><i className="fi fi-brands-whatsapp"></i></a>
-							<a href="#" className="text-decoration-none"><i className="fi fi-brands-telegram"></i></a>
-						</ul>
+
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
 
 
-	<div className="main white">
+			{/* <div className="main white">
 		<div className="row justify-content-center">
 			<div className="col-9">
 				<div className="row my-5">
@@ -599,9 +631,7 @@ return (
 								вы видели человека, который высыпается, усталым? В каждом из этих пунктов здоровье,
 								бодрость и сила.</p>
 						</div>
-						<div className="bg-wrapper-img2">
-							{/* <img src="/img/2.png" alt="" /> */}
-						</div>
+	
 					</div>
 
 					<div className="col-8 m-3 p-2 wrap_border text-start fs-5 my-5">
@@ -803,7 +833,7 @@ return (
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> 
 
 
 	<div className="footer bg-crimson mt-5 py-3">
@@ -813,8 +843,10 @@ return (
 			</div>
 		</div>
 	</div>
-</>
-)
+
+	*/}
+		</>
+	)
 }
 
 export default Recovery;
