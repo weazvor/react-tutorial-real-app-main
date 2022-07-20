@@ -133,10 +133,6 @@ a.btn-submit:active {
   color: rgb(120 12 12 / 80%);
 }
 
-.brands_url a:hover {
-  transform: scale(1.4);
-  transition: 0.6s;
-}
 
 .in-yan {
   width: 100%;
