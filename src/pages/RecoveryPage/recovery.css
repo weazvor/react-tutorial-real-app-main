@@ -179,22 +179,10 @@ a.btn-submit:active {
 
 .wrapper_img_under {
   position: relative;
-  width: 100%;
   /* for IE 6 */
 }
 
-.text_under {
-  position: absolute;
-  top: 40px;
-  left: 40px;
-  width: 100%;
-}
 
-.text_under p {
-  color: black;
-
-  padding: 10px;
-}
 
 .yan-in {
   width: 100%;
@@ -327,8 +315,37 @@ a.btn-submit:active {
   display: none;
 }
 
+.ImgBonusMess {
+  width: 500px;
+  height: 200px;
+}
 
+.text_under {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 100%;
+}
 
+.text_under_2 {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+}
+
+.text_under p {
+  color: black;
+  padding: 10px;
+}
+
+.text_under_2 p {
+  color: black;
+  padding: 10px;
+}
+
+.MobBonusMess_2 {
+  display: none;
+}
 
 @media (max-width: 1730px) {
   .projAbsolute {
@@ -438,6 +455,14 @@ a.btn-submit:active {
   .ImgMobAvatar {
     display: block;
   }
+
+  .MobBonusMess {
+    display: none;
+  }
+
+  .MobBonusMess_2 {
+    display: block;
+  }
 }
 
 @media (max-width: 651px) {
@@ -457,14 +482,21 @@ a.btn-submit:active {
   .projAbsolute {
     position: relative;
   }
+
+  .ImgBonusMess {
+    height: 230px;
+    width: 100%;
+  }
 }
 
 @media (max-width: 400px) {
+
   .projAbsolute,
   .projAbsolute_2 {
     display: none;
   }
-  .MuiTypography-root{
+
+  .MuiTypography-root {
     display: none;
   }
 
