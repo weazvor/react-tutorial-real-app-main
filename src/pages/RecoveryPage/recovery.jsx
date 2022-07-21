@@ -218,18 +218,18 @@ const Recovery = () => {
 
 
 						<div className="row justify-content-center my-5 ">
-							<div className="col-6 col-lg-3 col-md-4 col-sm-5 d-flex align-items-center justify-content-center">
+						<div className="col-12 col-lg-3 col-md-4 col-sm-6 d-flex align-items-center justify-content-center">
 								<i className="fi fi-rs-checkbox px-3 text-danger fs-5"></i>
 								<p className="fs-4">Похудение или набор</p>
 							</div>
-							<div className="col-6 col-lg-3 col-md-4 col-sm-5 d-flex align-items-center justify-content-center">
+							<div className="col-12 col-lg-3 col-md-4 col-sm-6 d-flex align-items-center justify-content-center">
 								<i className="fi fi-rs-checkbox px-3 text-danger fs-5"></i>
 								<p className="fs-4">Дома или в зале</p>
 							</div>
 						</div>
 
 						<div className="row justify-content-center my-5">
-							<div className="col-11 col-lg-5 col-md-9 col-sm-10 border rounded-4 border-white m-3 p-2">
+							<div className="col-11 col-lg-4 col-md-9 col-sm-10 border rounded-4 border-white m-3 p-2">
 
 								<div className="row d-flex py-4 mx-3">
 									<div className="col">
@@ -343,7 +343,7 @@ const Recovery = () => {
 
 
 
-							<div className="col-11 col-lg-5 col-md-9 col-sm-10 border rounded-4 border-white m-3 p-2 align-self-start">
+							<div className="col-11 col-lg-4 col-md-9 col-sm-10 border rounded-4 border-white m-3 p-2 align-self-start">
 								<div className="row d-flex py-4 mx-3">
 									<div className="col">
 										<span className="separator"> </span>
@@ -427,9 +427,9 @@ const Recovery = () => {
 								</div>
 							</div>
 						</div>
-						<div className="row justify-content-center my-5 ">
+						<div className="row justify-content-center my-5 flex-wrap-reverse flex-lg-wrap">
 
-							<div className="col-11 col-lg-5 col-md-9 col-sm-10 border rounded-4 border-white m-3 p-2 align-self-end">
+							<div className="col-11 col-lg-4 col-md-9 col-sm-10 border rounded-4 border-white m-3 p-2 align-self-end">
 								<div className="row d-flex py-4 mx-3">
 									<div className="col">
 										<span className="separator"> </span>
@@ -482,7 +482,7 @@ const Recovery = () => {
 
 
 
-							<div className="col-11 col-lg-5 col-md-9 col-sm-10 border rounded-4 border-white m-3 p-2 align-self-start">
+							<div className="col-11 col-lg-4 col-md-9 col-sm-10 border rounded-4 border-white m-3 p-2">
 								<div className="row d-flex py-4 mx-3">
 									<div className="col">
 										<span className="separator"> </span>
