@@ -351,7 +351,7 @@ a.btn-submit:active {
 
 .text_under_2 p {
   color: black;
-  padding: 10px;
+  padding: 15px;
 }
 
 .MobBonusMess_2 {
@@ -424,6 +424,10 @@ a.btn-submit:active {
     margin-left: -400px;
     top: 40%;
   }
+  #question-input{
+    min-width: 550px;
+
+  }
 
 }
 
@@ -474,6 +478,11 @@ a.btn-submit:active {
   .MobBonusMess_2 {
     display: block;
   }
+  #question-input{
+    min-width: 450px;
+
+  }
+
 }
 
 @media (max-width: 651px) {
@@ -486,6 +495,11 @@ a.btn-submit:active {
 
   .projAbsolute_2 {
     width: 350px;
+  }
+
+  #question-input{
+    min-width: 325px;
+
   }
 }
 
@@ -509,6 +523,10 @@ a.btn-submit:active {
 
   .MuiTypography-root {
     display: none;
+  }
+  #question-input{
+    min-width: 250px;
+
   }
 
 }

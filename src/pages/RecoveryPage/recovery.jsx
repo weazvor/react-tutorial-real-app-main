@@ -181,7 +181,7 @@ const Recovery = () => {
 								</div>
 							</div>
 
-							<p className="fs-3 my-5 text-center">Каждый сможет повлиять на свой прогресс</p>
+							<span className="fs-2 my-5 text-center p-1 text-uppercase">Каждый сможет повлиять на свой <p className="text-danger fw-bold"> прогресс</p></span>
 
 						</div>
 					</div>
@@ -568,8 +568,7 @@ const Recovery = () => {
 									<img src={BonusMessage} alt="" className="ImgBonusMess" />
 									<div className="text_under">
 										<p className="fs-5"><span className="text-danger fw-bold"> Рабочий чат с Артёмом</span>,
-											где
-											студенты могут <br /> задать свой вопрос автору проекта лично.
+											где студенты могут <br /> задать свой вопрос автору проекта лично.
 										</p>
 									</div>
 								</div>
@@ -625,7 +624,7 @@ const Recovery = () => {
 
 				<div className="row">
 					<div className="col text-center">
-						<span className="text-uppercase fw-bold fs-1 p-1">Как проект изменит <p className="text-danger"> жизнь</p></span>
+						<span className="text-uppercase fw-bold fs-2 p-1">Как проект изменит <p className="text-danger"> жизнь</p></span>
 
 
 						<div className="row justify-content-center ">
@@ -683,196 +682,204 @@ const Recovery = () => {
 				</div>
 			</div>
 
-			{/*<div className="main bg-crimson my-5 text-center">
-		<div className="row text-light justify-content-center">
-			<div className="col-10">
-				<div className="row">
-					<div className="col-7">
-						<img src={ImgAppeal} alt="" width="80%" />
-					</div>
-					<div className="col-5 text-start fs-5">
-						<span className="separator"> </span>
-						<p className="fs-1 fw-bold text-uppercase mb-5">Привет</p>
+			<div className="main bg-crimson my-5 text-center">
+				<div className="row text-light justify-content-center">
+					<div className="col-10">
 
-						<p>Меня зовут <span className="fw-bold"> Артём Брыков</span>, и я основатель этого марафона</p>
-						<p className="my-4">Я буду твоим тренером на протяжении 12 недель, передам <span className="fw-bold">
-								максимум
-								знаний</span>, накопленных за <span className="fw-bold"> 7 лет</span> тренерского опыта
-						</p>
-						<div className="row achievements text-center">
-							<div className="col-6">
-								<img src={ImgCube} alt="" width="100%" />
-								<p>Вице-чемпион<br />
-									Европы</p>
-							</div>
-							<div className="col-6">
-								<img src={ImgWallet} alt="" width="100%" />
-								<p>Обладатель Pro
-									Card IFBB</p>
-							</div>
-							<div className="col-6">
-								<img src={ImgMedal} alt="" width="100%" />
-								<p>Двукратный<br />
-									вице-чемпион
-									России</p>
-							</div>
-							<div className="col-6">
-								<img src={ImgPodium} alt="" width="100%" />
-								<p>Чемпион<br />
-									Diamond Cup
-									Италии и Греции</p>
-							</div>
-						</div>
-						<p className="my-5">Я буду с вами в чате каждый день на связи. Меня не интересует внешность
-							студентов, я знаю,
-							что будет конфета. Для меня важно показать, что регулярный спорт — это удовольствие,
-							жить
-							без откатов можно и это выбор.</p>
-						<a href="#" className="btn-submit text-wrap my-5 text-uppercase">Присоединиться</a>
+						<div className="row">
 
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div className="col my-5 text-light">
-			<p className="fs-2"><span className="fw-bold text-uppercase fs-1">Посмотри отзывы <br />и результаты
-				</span><br />тех, кто уже
-				прошел
-				марафон</p>
-		</div>
-		<div className="row justify-content-center">
-			<div className="col-5">
-				<div className="row text-light my-5 py-5 reviews">
-
-					<div className="row">
-						<div className="col-5">
-							<div id="list" className=" text-white mb-5"></div>
-						</div>
-					</div>
-					<form className="form_review mt-5" id="form">
-						<textarea id="question-input" className="mt5" required></textarea>
-						<br /><br />
-						<button type="submit" id="submit" disabled>Оставить отзыв
-						</button>
-
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	<div className="main white my-5">
-		<div className="row justify-content-center">
-			<div className="col-9">
-				<p className="fw-bold fs-1 text-uppercase text-center my-5">ответы на частые вопросы</p>
-				<div className="accordion" id="accordionExample">
-					<div className="accordion-item">
-						<h2 className="accordion-header" id="headingOne">
-							<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-								aria-expanded="false" aria-controls="collapseOne">
-								А что, если у меня не получится?
-							</button>
-						</h2>
-						<div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne"
-							data-bs-parent="#accordionExample">
-							<div className="accordion-body">
-								Если соблюдать только 2 шага: питание (спойлер: вам придётся есть много и
-								вкусно, чтобы умещаться в БЖУ) и тренировки (от 30 минут до 1ч) результат будет. И
-								визуально в зеркале, и в цифрах. Вы увидите это уже на контрольной точке (2 неделя).
-								Только 2 шага.
+							<div className="col-12 col-lg-7 col-md-12 col-sm-12">
+								<img src={ImgAppeal} alt="" width="80%" />
 							</div>
-						</div>
-					</div>
-					<div className="accordion-item">
-						<h2 className="accordion-header" id="headingTwo">
-							<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-								Если я сорвусь в питании?
-							</button>
-						</h2>
-						<div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo"
-							data-bs-parent="#accordionExample">
-							<div className="accordion-body">
-								Вы будете есть МНОГО, для срыва не будет повода. Но у вас всегда есть правило:
-								захотели сорваться - написали в рабочий чат, получили ответ от Марии.
-							</div>
-						</div>
-					</div>
-					<div className="accordion-item">
-						<h2 className="accordion-header" id="headingThree">
-							<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-								Если не пришла ссылка на почту?
-							</button>
-						</h2>
-						<div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
-							data-bs-parent="#accordionExample">
-							<div className="accordion-body">
-								Напишите на почту sokolova@marrymemariya.ru или в службу заботы в Telegram:
-								https://t.me/MariyaSokolovaBot
-							</div>
-						</div>
-					</div>
-					<div className="accordion-item">
-						<h2 className="accordion-header" id="headingFour">
-							<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-								Мне точно подойдут функциональные тренировки?
-							</button>
-						</h2>
-						<div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour"
-							data-bs-parent="#accordionExample">
-							<div className="accordion-body">
-								Да! Функциональные тренировки направлены на развитие основных качеств нашего
-								организма: сила, гибкость, скорость, баланс и выносливость. Большинство упражнений
-								базируются на естественных движениях тела. Благодаря набору разнообразных
-								упражнений, программу можно адаптировать для любого уровня подготовки
-							</div>
-						</div>
-					</div>
-					<div className="accordion-item">
-						<h2 className="accordion-header" id="headingFive">
-							<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-								А я увижу результат? </button>
-						</h2>
-						<div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive"
-							data-bs-parent="#accordionExample">
-							<div className="accordion-body">
-								Да, смотрите отзывы. Вы получите СВОЙ результат, на второй неделе уже увидите
-								его в кг и см.
-							</div>
-						</div>
-					</div>
-					<div className="accordion-item">
-						<h2 className="accordion-header" id="headingSix">
-							<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-								Артём отвечает лично?
-							</button>
-						</h2>
-						<div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix"
-							data-bs-parent="#accordionExample">
-							<div className="accordion-body">
-								Лично. Каждый день.
+							<div className="col-12 col-lg-5 col-md-12 col-sm-12 text-lg-start fs-5 text-md-start text-sm-start text-center">
+								<span className="separator"> </span>
+								<p className="fs-1 fw-bold text-uppercase mb-5">Привет</p>
+
+								<p>Меня зовут <span className="fw-bold"> Артём Брыков</span>, и я основатель этого марафона</p>
+								<p className="my-4">Я буду твоим тренером на протяжении 12 недель, передам <span className="fw-bold">
+									максимум
+									знаний</span>, накопленных за <span className="fw-bold"> 7 лет</span> тренерского опыта
+								</p>
+
+								<div className="row achievements text-center">
+									<div className="col-12 col-lg-6 col-md-6 col-sm-12 p-lg-0 p-2">
+										<img src={ImgCube} alt="" width="100%" />
+										<p>Вице-чемпион<br />
+											Европы</p>
+									</div>
+									<div className="col-12 col-lg-6 col-md-6 col-sm-12">
+										<img src={ImgWallet} alt="" width="100%" />
+										<p>Обладатель Pro
+											Card IFBB</p>
+									</div>
+									<div className="col-12 col-lg-6 col-md-6 col-sm-12">
+										<img src={ImgMedal} alt="" width="100%" />
+										<p>Двукратный<br />
+											вице-чемпион
+											России</p>
+									</div>
+									<div className="col-12 col-lg-6 col-md-6 col-sm-12">
+										<img src={ImgPodium} alt="" width="100%" />
+										<p>Чемпион<br />
+											Diamond Cup
+											Италии и Греции</p>
+									</div>
+								</div>
+								<p className="my-5">Я буду с вами в чате каждый день на связи. Меня не интересует внешность
+									студентов, я знаю,
+									что будет конфета. Для меня важно показать, что регулярный спорт — это удовольствие,
+									жить
+									без откатов можно и это выбор.</p>
+								<div className="row">
+									<div className="col text-lg-start text-center">
+										<a href="#" className="btn-submit text-wrap my-5 text-uppercase">Присоединиться</a>
+									</div>
+								</div>
+
 							</div>
 						</div>
 					</div>
 				</div>
+
+				<div className="col my-5 text-light">
+					<p className="fs-2"><span className="fw-bold text-uppercase fs-1">Посмотри отзывы <br />и результаты
+					</span><br />тех, кто уже
+						прошел
+						марафон</p>
+				</div>
+
+				<div className="row justify-content-center">
+					<div className="col-11 col-lg-7 col-md-7 col-sm-9">
+						<div className="row text-light my-5 py-5 reviews">
+
+							<div className="row">
+								<div className="col-5">
+									<div id="list" className=" text-white mb-5"></div>
+								</div>
+							</div>
+							<form className="form_review mt-5" id="form">
+								<textarea id="question-input" className="mt5" required></textarea>
+								<br /><br />
+								<button type="submit" id="submit" disabled className="text-uppercase">Оставить отзыв
+								</button>
+
+							</form>
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>
-	</div>
 
 
-	<div className="footer bg-crimson mt-5 py-3">
-		<div className="row text-center">
-			<div className="col">
-				<p className="text-white fs-4">ИП Брыков Артём</p>
+			{/*<div className="main white my-5">
+				<div className="row justify-content-center">
+					<div className="col-9">
+						<p className="fw-bold fs-1 text-uppercase text-center my-5">ответы на частые вопросы</p>
+						<div className="accordion" id="accordionExample">
+							<div className="accordion-item">
+								<h2 className="accordion-header" id="headingOne">
+									<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+										aria-expanded="false" aria-controls="collapseOne">
+										А что, если у меня не получится?
+									</button>
+								</h2>
+								<div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne"
+									data-bs-parent="#accordionExample">
+									<div className="accordion-body">
+										Если соблюдать только 2 шага: питание (спойлер: вам придётся есть много и
+										вкусно, чтобы умещаться в БЖУ) и тренировки (от 30 минут до 1ч) результат будет. И
+										визуально в зеркале, и в цифрах. Вы увидите это уже на контрольной точке (2 неделя).
+										Только 2 шага.
+									</div>
+								</div>
+							</div>
+							<div className="accordion-item">
+								<h2 className="accordion-header" id="headingTwo">
+									<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										Если я сорвусь в питании?
+									</button>
+								</h2>
+								<div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo"
+									data-bs-parent="#accordionExample">
+									<div className="accordion-body">
+										Вы будете есть МНОГО, для срыва не будет повода. Но у вас всегда есть правило:
+										захотели сорваться - написали в рабочий чат, получили ответ от Марии.
+									</div>
+								</div>
+							</div>
+							<div className="accordion-item">
+								<h2 className="accordion-header" id="headingThree">
+									<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+										Если не пришла ссылка на почту?
+									</button>
+								</h2>
+								<div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
+									data-bs-parent="#accordionExample">
+									<div className="accordion-body">
+										Напишите на почту sokolova@marrymemariya.ru или в службу заботы в Telegram:
+										https://t.me/MariyaSokolovaBot
+									</div>
+								</div>
+							</div>
+							<div className="accordion-item">
+								<h2 className="accordion-header" id="headingFour">
+									<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+										Мне точно подойдут функциональные тренировки?
+									</button>
+								</h2>
+								<div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour"
+									data-bs-parent="#accordionExample">
+									<div className="accordion-body">
+										Да! Функциональные тренировки направлены на развитие основных качеств нашего
+										организма: сила, гибкость, скорость, баланс и выносливость. Большинство упражнений
+										базируются на естественных движениях тела. Благодаря набору разнообразных
+										упражнений, программу можно адаптировать для любого уровня подготовки
+									</div>
+								</div>
+							</div>
+							<div className="accordion-item">
+								<h2 className="accordion-header" id="headingFive">
+									<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+										А я увижу результат? </button>
+								</h2>
+								<div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive"
+									data-bs-parent="#accordionExample">
+									<div className="accordion-body">
+										Да, смотрите отзывы. Вы получите СВОЙ результат, на второй неделе уже увидите
+										его в кг и см.
+									</div>
+								</div>
+							</div>
+							<div className="accordion-item">
+								<h2 className="accordion-header" id="headingSix">
+									<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+										Артём отвечает лично?
+									</button>
+								</h2>
+								<div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix"
+									data-bs-parent="#accordionExample">
+									<div className="accordion-body">
+										Лично. Каждый день.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>
-	</div> */}
+
+
+			<div className="footer bg-crimson mt-5 py-3">
+				<div className="row text-center">
+					<div className="col">
+						<p className="text-white fs-4">ИП Брыков Артём</p>
+					</div>
+				</div>
+			</div> */}
 		</>
 	)
 }
