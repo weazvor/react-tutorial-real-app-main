@@ -770,9 +770,9 @@ const Recovery = () => {
 			</div>
 
 
-			{/*<div className="main white my-5">
+			<div className="main white my-5">
 				<div className="row justify-content-center">
-					<div className="col-9">
+					<div className="col-12 p-2 col-lg-9 col-md-9 col-sm-12">
 						<p className="fw-bold fs-1 text-uppercase text-center my-5">ответы на частые вопросы</p>
 						<div className="accordion" id="accordionExample">
 							<div className="accordion-item">
@@ -876,10 +876,10 @@ const Recovery = () => {
 			<div className="footer bg-crimson mt-5 py-3">
 				<div className="row text-center">
 					<div className="col">
-						<p className="text-white fs-4">ИП Брыков Артём</p>
+						<p className="text-white fs-4">Брыков Артём</p>
 					</div>
 				</div>
-			</div> */}
+			</div> 
 		</>
 	)
 }
