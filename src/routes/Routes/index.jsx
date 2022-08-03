@@ -13,6 +13,8 @@ import {
   Container,
   Grid,
 } from "@material-ui/core";
+import Muscle from "../../pages/Muscle_structure/muscle";
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -48,6 +50,14 @@ function AppRoutes() {
         element={
           <GuestRoute>
             <Registration />
+          </GuestRoute>
+        }
+      />
+      <Route
+        path="/muscle_structure"
+        element={
+          <GuestRoute>
+            <Muscle />
           </GuestRoute>
         }
       />

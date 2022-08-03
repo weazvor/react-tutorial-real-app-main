@@ -1,0 +1,152 @@
+.body_anatomy {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    /* width: 200%; */
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%) scale(0.75, 0.75);
+    transition: all 0.5s ease-in-out;
+    /* z-index: 0; */
+}
+
+.anatomy {
+    position: relative;
+    text-align: center;
+}
+
+.muscle {
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+
+/* male */
+.neck {
+    width: 58px;
+    left: 278px;
+    top: 83px;
+    height: 70px;
+}
+
+.muscle:hover {
+    opacity: 1;
+}
+
+.delta {
+    width: 240px;
+    left: 186px;
+    top: 130px;
+    height: 85px;
+}
+
+.trapec {
+    width: 146px;
+    left: 233px;
+    top: 107px;
+    height: 38px;
+}
+
+.grud {
+    width: 167px;
+    left: 223px;
+    top: 142px;
+    height: 84px;
+}
+
+.biceps {
+    width: 271px;
+    left: 171px;
+    top: 174px;
+    height: 118px;
+}
+
+.predpl {
+    width: 332px;
+    left: 141px;
+    top: 245px;
+    height: 116px;
+}
+
+.press {
+    width: 91px;
+    left: 262px;
+    top: 217px;
+    height: 209px;
+}
+
+.jivotkos {
+    width: 136px;
+    left: 239px;
+    top: 231px;
+    height: 132px;
+}
+
+.kvadriceps {
+    width: 184px;
+    left: 214px;
+    top: 363px;
+    height: 206px;
+}
+
+.golen {
+    width: 151px;
+    left: 231px;
+    top: 577px;
+    height: 178px;
+}
+
+/* male */
+
+/* maleBack */
+.trapecspina {
+    width: 158px;
+    right: 223px;
+    top: 75px;
+    height: 204px;
+}
+
+.deltaspina {
+    width: 231px;
+    right: 187px;
+    top: 131px;
+    height: 64px;
+}
+
+.triceps {
+    width: 274px;
+    right: 166px;
+    top: 176px;
+    height: 114px;
+}
+
+.spina {
+    width: 158px;
+    right: 223px;
+    top: 212px;
+    height: 123px;
+}
+
+.yagodic {
+    width: 123px;
+    right: 241px;
+    top: 346px;
+    height: 90px;
+}
+
+.bicepsbedra {
+    width: 142px;
+    right: 231px;
+    top: 436px;
+    height: 158px;
+}
+
+.golenspina {
+    width: 148px;
+    right: 228px;
+    top: 561px;
+    height: 208px;
+}
