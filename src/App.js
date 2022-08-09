@@ -43,6 +43,9 @@ function App() {
             <Button color="inherit" component={Link} to="/">
               Главная
             </Button>
+            <Button color="inherit" component={Link} to="/muscle_structure">
+              Анатомия
+            </Button>
           </div>
           {auth.isLoaded &&
             (auth.user ? (

@@ -30,28 +30,27 @@ const Muscle = () => {
 
 					<div className="body_anatomy">
 
-						<img src={male} alt="" className="" />
-						<img src={maleBack} alt="" className="" />
-						<img src={neck} alt="" className="muscle neck" />
-						<img src={trapec} alt="" className="muscle trapec" />
-						<img src={delta} alt="" className="muscle delta" />
-						<img src={grud} alt="" className="muscle grud" />
-						<img src={biceps} alt="" className="muscle biceps" />
-						<img src={predpl} alt="" className="muscle predpl" />
-						<img src={press} alt="" className="muscle press" />
-						<img src={jivotkos} alt="" className="muscle jivotkos" />
-						<img src={kvadriceps} alt="" className="muscle kvadriceps" />
-						<img src={golen} alt="" className="muscle golen" />
+						<img src={male} alt="мужчина" className="" />
+						<img src={maleBack} alt="мужчина со спины" className="" />
+						<img src={delta} alt="Дельтовидные" className="muscle delta" />
+						<img src={trapec} alt="Трапеции" className="muscle trapec" />
+						<img src={biceps} alt="Бицепсы" className="muscle biceps" />
+						<img src={predpl} alt="Мышцы предплечья" className="muscle predpl" />
+						<img src={jivotkos} alt="Косые мышцы живота" className="muscle jivotkos" />
+						<img src={press} alt="Пресс" className="muscle press" />
+						<img src={neck} alt="Мышцы шеи" className="muscle neck" />
+						<img src={grud} alt="Грудные мышцы" className="muscle grud" />
+						<img src={kvadriceps} alt="Квадрицепсы" className="muscle kvadriceps" />
+						<img src={golen} alt="Мышцы голени" className="muscle golen" />
 
 
-
-						<img src={trapecspina} alt="" className="muscle trapecspina" />
-						<img src={deltaspina} alt="" className="muscle deltaspina" />
-						<img src={triceps} alt="" className="muscle triceps" />
-						<img src={spina} alt="" className="muscle spina" />
-						<img src={yagodic} alt="" className="muscle yagodic" />
-						<img src={bicepsbedra} alt="" className="muscle bicepsbedra" />
-						<img src={golenspina} alt="" className="muscle golenspina" />
+						<img src={deltaspina} alt="Дельтовидные" className="muscle deltaspina" />
+						<img src={triceps} alt="Трицепс" className="muscle triceps" />
+						<img src={trapecspina} alt="Трапеции" className="muscle trapecspina" />
+						<img src={spina} alt="Широчайшие мышцы спины" className="muscle spina" />
+						<img src={yagodic} alt="Ягодичные мышцы" className="muscle yagodic" />
+						<img src={bicepsbedra} alt="Бицепс бедра" className="muscle bicepsbedra" />
+						<img src={golenspina} alt="Мышцы голени" className="muscle golenspina" />
 
 					</div>
 				</div>

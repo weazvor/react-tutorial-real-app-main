@@ -1,5 +1,5 @@
 import Recovery from "../RecoveryPage/recovery";
-import Muscle from "../Muscle_structure/muscle";
+
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
